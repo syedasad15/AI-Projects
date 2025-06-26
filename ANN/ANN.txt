@@ -1,0 +1,9 @@
+🔬 3. Based on Task Complexity
+Task Type	Suggested First Hidden Layer Size
+Simple classification	32–128 neurons
+Complex classification	128–512 neurons
+Regression with few features	16–64 neurons
+Image processing (raw pixels)	Use CNNs, not large dense layers
+NLP or time series	Often use RNNs, Transformers, or Embeddings
+
+Output layer neurons should be equal to number if classes of problem
